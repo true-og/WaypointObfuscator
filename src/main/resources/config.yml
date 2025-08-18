@@ -1,0 +1,17 @@
+# DO NOT MODIFY: This version number is used by the plugin to detect
+# whether your config needs to be updated automatically on startup.
+# If missing or different from the plugin's current version, the plugin
+# will back up your config and write a fresh one.
+config-version: 1
+
+# If true, the plugin generates a new random secret each time the server starts.
+# This increases privacy by preventing long-term correlation of obfuscated IDs,
+# but it means obfuscated identifiers will change after every restart.
+# Recommendation: leave this ON. A constant salt lets players correlate
+# obfuscated IDs with identities over time; rotating breaks that correlation.
+rotate-secret-on-restart: true
+
+# Secret salt used to deterministically obfuscate waypoint identifiers.
+# If rotate-secret-on-restart is false and this is empty/missing, the plugin
+# will generate a strong random secret and save it here.
+secret-salt: "change-me-to-a-random-secret"
