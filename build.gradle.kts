@@ -1,6 +1,6 @@
 plugins {
     id("java")
-	eclipse
+    eclipse
     id("xyz.jpenilla.run-paper") version "2.3.1"
 }
 
