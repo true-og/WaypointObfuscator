@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.19.4-R0.1-SNAPSHOT")
-    compileOnly("com.github.retrooper:packetevents-spigot:2.9.3")
+    compileOnly("com.github.retrooper:packetevents-spigot:2.9.5")
 }
 
 tasks {
