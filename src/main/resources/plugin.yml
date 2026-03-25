@@ -3,4 +3,4 @@ version: '${version}'
 main: ink.auth.waypointObfuscator.WaypointObfuscator
 api-version: '1.19'
 depend:
-  - PacketEvents-OG
+  - PacketEvents
